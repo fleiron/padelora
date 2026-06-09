@@ -31,23 +31,35 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p><em>Last updated: June 4, 2026</em></p>
+  <p><em>Last updated: June 10, 2026</em></p>
 
   <p>Welcome to <strong>Padelora: Padel Score App</strong> (the "App"). The App includes an <strong>iPhone application</strong> and a companion <strong>Apple Watch app</strong> (together, the "Services"). We respect your privacy and explain here what information is processed when you use the Services.</p>
 
   <h2>1. Summary</h2>
   <ul>
-    <li>We do <strong>not</strong> ask you to create a username, email account or password in the App.</li>
-    <li>Match scores, player names, tactics and stats you enter are stored <strong>primarily on your devices</strong> (iPhone and, when synced, Apple Watch).</li>
+    <li>We do <strong>not</strong> ask you to create a traditional email/password account. The App uses an <strong>anonymous technical identifier</strong> (Firebase) so social and sync features can work.</li>
+    <li>Match scores, player names, tactics and stats you enter are stored <strong>primarily on your devices</strong> (iPhone and, when synced, Apple Watch). Finished match summaries may also be sent to our servers if you use friends or leaderboard features.</li>
+    <li>Optional <strong>social features</strong> (friend code, nickname, friends list, weekly leaderboard) use our backend — see Section 2 below.</li>
     <li>We use <strong>anonymous analytics</strong> (Firebase and Mixpanel) and purchase validation (RevenueCat) to improve the App — not for advertising or cross-app tracking.</li>
     <li>On Apple Watch, with your permission, the App may read <strong>HealthKit</strong> data (heart rate, active energy) during matches and save padel workouts to Apple Health.</li>
   </ul>
 
   <h2>2. Information Stored on Your Devices</h2>
-  <p>Content you create in the App — including match scores, player names, tactic boards, chemistry ratings and preferences — is stored <strong>locally on your iPhone</strong> unless you use the Apple Watch companion, in which case relevant match state may be synced between your paired iPhone and Apple Watch using <strong>Apple’s WatchConnectivity</strong> framework. This sync is <strong>device-to-device</strong> through Apple’s systems; we do not operate our own servers that store your match data.</p>
+  <p>Content you create in the App — including match scores, player names, tactic boards, chemistry ratings and preferences — is stored <strong>locally on your iPhone</strong> unless you use the Apple Watch companion, in which case relevant match state may be synced between your paired iPhone and Apple Watch using <strong>Apple’s WatchConnectivity</strong> framework. This device-to-device sync is handled through Apple’s systems.</p>
   <p>You can erase locally stored app data at any time on iPhone: <strong>Settings → Erase All Data</strong> inside the App.</p>
 
-  <h2>3. Apple Watch Companion</h2>
+  <h2>3. Friends, Profile &amp; Weekly Leaderboard (Our Servers)</h2>
+  <p>If you choose to use social features, we process and store limited data on our servers (authenticated via your anonymous Firebase ID), including:</p>
+  <ul>
+    <li><strong>Profile:</strong> nickname (optional), friend code, timezone, optional avatar image URL, and whether you have Padelora Plus</li>
+    <li><strong>Friends:</strong> connections you add or remove by friend code; friends can see your nickname, avatar, win/loss counts and streaks you choose to share through the feature</li>
+    <li><strong>Match summaries:</strong> when you finish a match, a summary (result, date, format, score summary) may be uploaded to calculate weekly leaderboard standings and friend stats</li>
+    <li><strong>Leaderboard:</strong> weekly win/loss rankings among you and your connected friends; standings reset each week based on your timezone</li>
+    <li><strong>Invite links:</strong> your friend code may appear in share links you send to others</li>
+  </ul>
+  <p>We do not make your profile public to all App users — social data is visible only to friends you connect with, as designed in the App. You can remove a friend at any time in the App.</p>
+
+  <h2>4. Apple Watch Companion</h2>
   <p>The Apple Watch app lets you score matches from your wrist, view limited history, and (with Padelora Plus) access heart-rate zones during play. When your Watch and iPhone are paired and the Apps are installed on both devices:</p>
   <ul>
     <li>Live match state (score, rules, premium status) may sync between devices via WatchConnectivity.</li>
@@ -55,7 +67,7 @@
     <li>Subscriptions purchased on either device apply to both when signed in with the same Apple ID (see Section 6).</li>
   </ul>
 
-  <h2>4. HealthKit (Apple Watch)</h2>
+  <h2>5. HealthKit (Apple Watch)</h2>
   <p>If you grant permission, the Watch app may:</p>
   <ul>
     <li><strong>Read</strong> heart rate and active energy (calories) during an active match workout.</li>
@@ -64,7 +76,7 @@
   <p>Health data is processed by Apple’s HealthKit on your devices. We do not receive your raw HealthKit data on our own servers. You can revoke Health access at any time in the Health app or Watch settings.</p>
   <p>Padelora is a sports tracking tool, not a medical device. Do not use it for medical diagnosis or treatment.</p>
 
-  <h2>5. Analytics and Technical Identifiers</h2>
+  <h2>6. Analytics and Technical Identifiers</h2>
   <p>To understand how the App is used and to fix issues, we collect <strong>anonymized usage and technical data</strong>, such as:</p>
   <ul>
     <li>App opens and feature usage (e.g., match started, paywall viewed, onboarding completed)</li>
@@ -80,7 +92,7 @@
   </ul>
   <p>These providers may process device identifiers and event metadata as <strong>data processors</strong> on our behalf. We do <strong>not</strong> use analytics for third-party advertising or sell your data.</p>
 
-  <h2>6. Purchases and Payments</h2>
+  <h2>7. Purchases and Payments</h2>
   <p>The App offers an optional premium subscription called <strong>Padelora Plus</strong>. Plus unlocks on iPhone and Apple Watch, including:</p>
   <ul>
     <li>Unlimited finished matches per month (free users: limited monthly quota)</li>
@@ -99,40 +111,41 @@
   <p>Payments are processed by <strong>Apple</strong>. We do not see or store your payment card details. Subscription status is validated via <strong>RevenueCat</strong>, which uses anonymous identifiers tied to your Apple purchase. See <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy</a>.</p>
   <p>A subscription started on iPhone or Apple Watch is available on the other device when you use the <strong>same Apple ID</strong>, subject to Apple’s and RevenueCat’s normal restore behavior.</p>
 
-  <h2>7. Live Activities and Notifications</h2>
+  <h2>8. Live Activities and Notifications</h2>
   <p>On iPhone, during a match the App may show a <strong>Live Activity</strong> on the Lock Screen and Dynamic Island. This content is handled on your device. You can disable Live Activities in iPhone Settings → Padelora.</p>
 
-  <h2>8. Photos Library</h2>
+  <h2>9. Photos Library</h2>
   <p>If you save a tactic board or match card image, the App writes one image to your Photos library. The App does not read your other photos unless you grant broader access elsewhere in iOS. Revoke access in Settings → Padelora → Photos.</p>
 
-  <h2>9. Data Security</h2>
+  <h2>10. Data Security</h2>
   <p>We use industry-standard practices on our side for any third-party services we configure. Match content stays on your devices; analytics data is limited to non-identifying usage events and technical IDs described above.</p>
 
-  <h2>10. Sharing Your Information</h2>
-  <p>We do not sell or rent personal data. We share data only with service providers listed in this policy (Firebase, Mixpanel, RevenueCat, Apple) strictly to operate the App, analytics and subscriptions — not for their independent marketing.</p>
+  <h2>11. Sharing Your Information</h2>
+  <p>We do not sell or rent personal data. We share data only with service providers listed in this policy (Firebase, Mixpanel, RevenueCat, Apple) and our social backend infrastructure strictly to operate the App, analytics, subscriptions and social features — not for their independent marketing.</p>
 
-  <h2>11. Your Choices and Rights</h2>
+  <h2>12. Your Choices and Rights</h2>
   <ul>
     <li><strong>Subscriptions:</strong> manage or cancel in Apple ID → Subscriptions; use Restore Purchases in the App if needed.</li>
     <li><strong>Local data:</strong> erase via Settings → Erase All Data in the iPhone App.</li>
+    <li><strong>Delete account:</strong> use <strong>Settings → Delete Account</strong> to delete your anonymous app account, clear local profile and social caches, and start onboarding again. Server-side profile, friend connections and synced match summaries linked to that account are deleted or disassociated as part of this process, subject to reasonable backup retention.</li>
+    <li><strong>Friends:</strong> remove individual friends in the App at any time; they will no longer see your updated social stats.</li>
     <li><strong>Health:</strong> manage permissions in the Health app.</li>
     <li><strong>Analytics:</strong> you may limit ad tracking in iOS Settings → Privacy &amp; Security → Tracking. Our analytics are first-party product analytics, not cross-app ad networks.</li>
-    <li><strong>EU/UK users:</strong> you may contact us to request access or deletion of data held by us through our processors where applicable. Because we do not operate login accounts, most personal match content is already under your control on-device.</li>
+    <li><strong>EU/UK users:</strong> you may contact us to request access or deletion of data held by us through our processors where applicable.</li>
   </ul>
-  <p>We do not provide a separate “delete account” screen because the App does not offer user-created accounts with credentials. Anonymous analytics IDs reset when you delete and reinstall the App.</p>
 
-  <h2>12. Children's Privacy</h2>
+  <h2>13. Children's Privacy</h2>
   <p>The App is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
 
-  <h2>13. International Transfers</h2>
+  <h2>14. International Transfers</h2>
   <p>Analytics providers may process data in the United States, the European Union or other regions. Mixpanel may be configured to use EU data residency endpoints for EU projects.</p>
 
-  <h2>14. Contact Us</h2>
+  <h2>15. Contact Us</h2>
   <p>Questions about this Privacy Policy:</p>
   <p>📩 Email: <a href="mailto:ilushazs@icloud.com">ilushazs@icloud.com</a><br/>
      ✈ Telegram: <a href="https://t.me/ilyabnae">@ilyabnae</a></p>
 
-  <h2>15. Changes to This Policy</h2>
+  <h2>16. Changes to This Policy</h2>
   <p>We may update this Privacy Policy from time to time. Material changes will be reflected on this page with an updated “Last updated” date. Continued use of the Services after changes constitutes acceptance of the updated policy.</p>
 </body>
 </html>
